@@ -41,6 +41,6 @@ void showArrey (double [,] arrey)
 
 int m = enterMandN("Enter m: ");
 int n = enterMandN("Enter n: ");
-double[,] matricx = createRandomArrey(m, n, 0, 10);
+double[,] matricx = createRandomArrey(m, n, -9, 10);
 showArrey(matricx);
 
