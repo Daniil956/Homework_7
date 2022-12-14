@@ -46,35 +46,3 @@ for (int i = 0; i < matrix.GetLength(1); i++)
     double result = sum / matrix.GetLength(0);
     System.Console.Write(Math.Round(result, 2) + " | ");
 }
-
-
-
-// for (int i = 0; i < arrey.GetLength(1); i++)
-// {
-//     Console.Write((sum / arrey.GetLength(0)) + " ");
-// }
-// Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-//  int[] sum = new int[arrey.GetLength(0)];
-
-//     for (int i = 0; i < arrey.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < arrey.GetLength(1); j++)
-//         {   
-//             sum[i] = 0;
-//             double divider = 0;
-//             sum[i] += arrey[i,j];
-//             System.Console.Write(" |Сумма " + i.ToString() + " столбца = " + sum[i].ToString());
-//             break;
-//         }
-//     }
-// }
